@@ -263,15 +263,15 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Icon name="Phone" size={20} className="text-primary" />
-                  <span className="text-accent">+7 (913) 456-78-90</span>
+                  <span className="text-accent">+7 950 953 11 47</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="Mail" size={20} className="text-primary" />
-                  <span className="text-accent">info@polos-flowers.ru</span>
+                  <span className="text-accent">polosofi20@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="MapPin" size={20} className="text-primary" />
-                  <span className="text-accent">г. Омск, ул. Красный Путь, д. 28</span>
+                  <span className="text-accent">г. Омск</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Icon name="Clock" size={20} className="text-primary" />
@@ -290,7 +290,7 @@ const Index = () => {
                   <Icon name="MessageCircle" size={20} className="mr-2" />
                   Написать в WhatsApp
                 </Button>
-                <Button className="w-full" variant="outline">
+                <Button className="w-full" variant="outline" onClick={() => window.open('https://t.me/polosflowers', '_blank')}>
                   <Icon name="Send" size={20} className="mr-2" />
                   Написать в Telegram
                 </Button>
