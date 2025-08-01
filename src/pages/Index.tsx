@@ -54,8 +54,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Icon name="Flower" size={32} className="text-primary" />
-              <h1 className="text-2xl font-bold text-primary">PoloS</h1>
+              <img 
+                src="https://cdn.poehali.dev/files/e915df02-679b-4f85-9b8b-a1cd30ad8233.jpg" 
+                alt="PoloS логотип" 
+                className="h-10 w-auto"
+              />
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#catalog" className="text-accent hover:text-primary transition-colors">Каталог</a>
